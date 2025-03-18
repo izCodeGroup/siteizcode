@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://gym-strong.vercel.app/"><img src="https://github.com/izCodeGroup/siteizcode/blob/master/public/favicon.ico" alt="Logo" height=355></a>
+  <a href="https://gym-strong.vercel.app/"><img src="https://github.com/izCodeGroup/siteizcode/blob/master/public/favicon.ico" alt="Logo" height=50></a>
 </p>
 <h1 align="center">izcode</h1>
 
