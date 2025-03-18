@@ -28,7 +28,6 @@ const Services = () => {
             Oferecemos soluções completas para transformar sua visão em realidade digital
           </p>
           
-          {/* Vector graphic */}
           <div className="mt-8 flex justify-center">
             <svg width="60" height="4" viewBox="0 0 60 4">
               <rect width="60" height="4" fill="black" />
