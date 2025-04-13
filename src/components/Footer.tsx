@@ -33,9 +33,9 @@ const Footer = () => {
                 href="mailto:contato@izcode.com.br"
                 target="_blank"
                 rel="noreferrer"
-                className="font-mono text-sm uppercase tracking-wider hover:text-izcode-blue transition-colors"
+                className="font-mono text-sm tracking-wider hover:text-izcode-blue transition-colors"
               >
-                contato@izcode.com.br
+               E-MAIL: contato@izcode.com.br
               </a>
             </div>
             <p className="text-sm font-light">
