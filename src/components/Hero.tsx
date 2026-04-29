@@ -9,10 +9,10 @@ const Hero = () => {
             Transformando ideias em <span className="text-izcode-blue">soluções digitais</span>
           </h1>
           <p className="text-lg text-gray-600 mb-12 max-w-2xl font-light">
-            Desenvolvemos produtos digitais para startups, CRMs personalizados e soluções tecnológicas que impulsionam o crescimento do seu negócio.
+            Desenvolvemos produtos digitais para startups, Landing Pages, CRMs personalizados e soluções tecnológicas que impulsionam o crescimento do seu negócio.
           </p>
           <a 
-            href="https://api.whatsapp.com/send/?phone=5531991732236&text&type=phone_number&app_absent=0r" 
+            href="https://api.whatsapp.com/send/?phone=5531991732236&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20estou%20interessado%20no%20servi%C3%A7o%20da%20izcode&type=phone_number&app_absent=0" 
             target="_blank" 
             rel="noreferrer"
             className="btn-primary inline-flex items-center text-sm uppercase tracking-wider"

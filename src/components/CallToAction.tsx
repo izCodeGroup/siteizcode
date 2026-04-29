@@ -19,7 +19,7 @@ const CallToAction = () => {
           </div>
           
           <a 
-            href="https://api.whatsapp.com/send/?phone=5531991732236&text&type=phone_number&app_absent=0r" 
+            href="https://api.whatsapp.com/send/?phone=5531991732236&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20estou%20interessado%20no%20servi%C3%A7o%20da%20izcode&type=phone_number&app_absent=0" 
             target="_blank" 
             rel="noreferrer"
             className="inline-flex items-center bg-white text-izcode-black py-3 px-8 font-mono text-sm uppercase tracking-wider hover:bg-gray-100 transition-colors duration-300"
