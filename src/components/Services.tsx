@@ -9,8 +9,8 @@ const Services = () => {
     },
     {
       icon: <Database className="h-8 w-8 text-izcode-black" />,
-      title: "CRM Personalizado",
-      description: "Sistemas de gestão de relacionamento com clientes adaptados às necessidades específicas do seu negócio."
+      title: "Sites e Landing Pages",
+      description: "Fazemos seu negócio brilhar online com sites e landing pages personalizados, otimizados para conversão e SEO."
     },
     {
       icon: <Zap className="h-8 w-8 text-izcode-black" />,
