@@ -69,12 +69,23 @@ export default {
 					'black-light': '#222222',
 					'gray-light': '#f8f8f8',
 					'gray-medium': '#aaaaaa',
-				}
+				},
+				/* Base escura + acento alinhado ao azul do logo izcode */
+				awful: {
+					bg: '#09090b',
+					elevated: '#121826',
+					fg: '#e8e8e8',
+					muted: '#666666',
+					accent: '#3399ff',
+					'accent-dim': '#1a6fe0',
+					border: 'rgba(255, 255, 255, 0.1)',
+				},
 			},
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
-				heading: ['Playfair Display', 'serif'],
-				mono: ['Space Mono', 'monospace'],
+				heading: ['Space Grotesk', 'system-ui', 'sans-serif'],
+				display: ['Space Grotesk', 'system-ui', 'sans-serif'],
+				mono: ['JetBrains Mono', 'ui-monospace', 'monospace'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -97,11 +108,31 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0px)'
+					},
+					'50%': {
+						transform: 'translateY(-20px)'
+					}
+				},
+				'slideInUp': {
+					from: {
+						opacity: '0',
+						transform: 'translateY(30px)'
+					},
+					to: {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'slideInUp': 'slideInUp 0.8s ease-out'
 			}
 		}
 	},
