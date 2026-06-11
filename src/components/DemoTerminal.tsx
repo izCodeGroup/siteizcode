@@ -23,7 +23,7 @@ const DemoTerminal = () => {
   return (
     <section
       ref={sectionRef}
-      className="border-t border-white/10 bg-awful-bg py-20 md:py-28"
+      className="border-t border-white/10 bg-awful-bg/75 py-20 md:py-28"
       aria-labelledby="terminal-demo-heading"
     >
       <div className="container-custom">

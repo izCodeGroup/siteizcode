@@ -7,7 +7,7 @@ const stats = [
 const StatementZoom = () => {
   return (
     <section
-      className="relative z-0 border-t border-white/10 bg-awful-bg py-24 md:py-32"
+      className="relative z-0 border-t border-white/10 bg-awful-bg/75 py-24 md:py-32"
       aria-labelledby="statement-heading"
     >
       <div className="pointer-events-none absolute inset-0 opacity-[0.25]" aria-hidden>

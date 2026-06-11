@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer
       ref={sectionRef}
-      className="relative z-[3] border-t border-white/10 bg-awful-bg text-awful-fg"
+      className="relative z-[3] border-t border-white/10 bg-awful-bg/90 text-awful-fg"
     >
       <div className="container-custom py-16 md:py-20">
         <div className="mb-14 grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-12 lg:gap-10 md:mb-16">
@@ -44,7 +44,7 @@ const Footer = () => {
             <ul className="mt-4 space-y-3 text-sm text-awful-muted">
               <li>
                 <a href="#services" className="transition-colors hover:text-awful-fg">
-                  Serviços
+                  Portfolio
                 </a>
               </li>
               <li>

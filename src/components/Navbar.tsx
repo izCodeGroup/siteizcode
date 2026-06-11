@@ -31,7 +31,7 @@ const Navbar = () => {
 
           <div className="hidden items-center gap-1 md:flex lg:gap-2">
             <a href="#services" className={linkClass}>
-              Serviços
+              Portfolio
             </a>
             <a href="#features" className={linkClass}>
               Princípios
@@ -64,7 +64,7 @@ const Navbar = () => {
           <div className="mt-4 border border-white/10 bg-awful-elevated p-4 shadow-xl backdrop-blur-xl md:hidden">
             <div className="flex flex-col gap-1">
               {[
-                ["#services", "Serviços"],
+                ["#services", "Portfolio"],
                 ["#features", "Princípios"],
                 ["#cta", "Contato"],
               ].map(([href, label]) => (

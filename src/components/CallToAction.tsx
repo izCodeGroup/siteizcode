@@ -11,7 +11,7 @@ const CallToAction = () => {
     <section
       ref={sectionRef}
       id="cta"
-      className="scroll-mt-24 border-t border-white/10 bg-awful-bg py-24 md:py-32"
+      className="scroll-mt-24 border-t border-white/10 bg-awful-bg/75 py-24 md:py-32"
     >
       <div className="container-custom">
         <p data-reveal className="font-mono text-[11px] font-semibold uppercase tracking-[0.3em] text-awful-accent">
@@ -34,7 +34,7 @@ const CallToAction = () => {
             <ArrowRight className="h-4 w-4" aria-hidden />
           </a>
           <a href="#services" className="awful-btn-outline w-full justify-center text-center sm:w-auto">
-            Rever serviços
+            Rever portfolio
           </a>
         </div>
 

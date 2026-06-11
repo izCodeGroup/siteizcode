@@ -216,7 +216,7 @@ const Hero = ({ children }: HeroProps) => {
 
   return (
     <>
-      <section ref={heroSectionRef} className="hero-section relative isolate bg-awful-bg">
+      <section ref={heroSectionRef} className="hero-section relative isolate bg-transparent">
         <div ref={pinLayerRef} className="hero-pin-layer relative h-[100svh] overflow-hidden pt-24 pb-24 md:pt-36 md:pb-32">
           <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
             <div className="tech-glow absolute inset-0 opacity-80" />
@@ -283,7 +283,7 @@ const Hero = ({ children }: HeroProps) => {
                     </span>
                   </a>
                   <a href="#services" className="awful-btn-outline w-full justify-center leading-none sm:w-auto">
-                    <span className="leading-none">Ver serviços</span>
+                    <span className="leading-none">Ver portfolio</span>
                     <span className="inline-flex h-4 w-4 shrink-0 items-center justify-center opacity-80" aria-hidden>
                       <ArrowDown className="h-4 w-4" />
                     </span>

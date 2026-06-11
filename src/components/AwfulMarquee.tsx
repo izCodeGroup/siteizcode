@@ -11,7 +11,7 @@ const AwfulMarquee = () => {
 
   return (
     <div
-      className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen overflow-hidden border-y border-white/10 bg-awful-bg py-10"
+      className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen overflow-hidden border-y border-white/10 bg-awful-bg/75 py-10"
       aria-hidden
     >
       <div className="awful-marquee-track">
