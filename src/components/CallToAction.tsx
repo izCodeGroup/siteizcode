@@ -39,7 +39,7 @@ const CallToAction = () => {
         </div>
 
         <p data-reveal className="mt-6 font-mono text-xs text-awful-muted">
-          Comercial · (31) 99173-2236
+          Comercial · (31) 97525-4921
         </p>
       </div>
     </section>

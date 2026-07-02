@@ -39,7 +39,7 @@ type ProjectCase = {
 const projectCases: ProjectCase[] = [
   {
     id: "01",
-    title: "Landing Page Dr. Marcelo",
+    title: "Landing Page Profissional",
     description:
       "Landing page desenvolvida para apresentar o atendimento com clareza, elevar a percepção de confiança e conduzir o visitante até o agendamento.",
     tags: ["Landing page", "Saúde e estética", "Conversão"],
@@ -51,17 +51,17 @@ const projectCases: ProjectCase[] = [
     images: [
       {
         src: "/fotolandingpage.png",
-        alt: "Hero da landing page da Clínica Dr. Marcelo",
+        alt: "Hero da landing page profissional",
         position: "center",
       },
       {
         src: "/landingpage-2.png",
-        alt: "Seção sobre o médico da landing page da Clínica Dr. Marcelo",
+        alt: "Seção sobre o médico da landing page profissional",
         position: "center top",
       },
       {
         src: "/landingpage-3.png",
-        alt: "Seção de procedimentos da landing page da Clínica Dr. Marcelo",
+        alt: "Seção de procedimentos da landing page profissional",
         position: "center",
       },
     ],
@@ -93,7 +93,7 @@ const projectCases: ProjectCase[] = [
   },
   {
     id: "03",
-    title: "Gerencie viagens com precisão total",
+    title: "Sistemas Desktop",
     url: "https://gestortrip.vercel.app/",
     description:
       "Sistema desktop para agências de turismo, organizadores de excursões e gestores de viagens. Controle clientes, viagens e pagamentos — tudo em um só lugar, sem precisar de internet.",
@@ -114,7 +114,7 @@ const projectCases: ProjectCase[] = [
   },
   {
     id: "04",
-    title: "Nooway Store",
+    title: "E-commerce",
     url: "https://noowaystore.vercel.app/",
     gallery: "split",
     description:
