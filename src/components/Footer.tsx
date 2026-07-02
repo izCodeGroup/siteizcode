@@ -74,7 +74,7 @@ const Footer = () => {
                 <span className="flex h-9 w-9 items-center justify-center border border-white/10 bg-awful-elevated">
                   <MessageSquare className="h-4 w-4" />
                 </span>
-                <span className="text-sm font-medium break-words">WhatsApp · (31) 99173-2236</span>
+                <span className="text-sm font-medium break-words">WhatsApp · (31) 7525-4921</span>
               </a>
               <a
                 href="mailto:contato@izcode.com.br"
